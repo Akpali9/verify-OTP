@@ -1,0 +1,106 @@
+button{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #c9a777;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 0;
+    margin-top: 25px;
+    cursor: not-allowed;
+    transition: all 0.2s ease;
+}
+button:active{
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: #efa94a;
+}
+#zone{
+    height: 48%;
+    width: 20%;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+.input-field{
+    position: relative;
+    align-items: center;
+    display: flex;
+   margin: 10%;
+   height: 20%;
+    
+}
+.container{
+    width: 28%;
+    height: 40%;
+    background-color: gold;
+}
+h4{
+    text-align: center;
+    font-size: large;
+    top: 20px;
+    position: relative;
+}
+@media (max-width:772.8px) {
+    h4{
+        font-size: large;
+    }
+    .container{
+        width: 60%;
+        height: 50%;
+    }
+.input-field{
+
+}
+}
+@media (max-width:921px) {
+    .input-field{
+position: relative;
+    }
+    
+    .container{
+        width: 35%;
+        height: 50%;
+    }
+}
+@media (max-width:709px) {
+    .input-field{
+width: auto;
+position: relative;
+    }
+    
+    .container{
+        width: 65%;
+        height: 50%;
+    }
+}
+@media (max-width:397px) {
+    .input-field{
+        width: auto;
+        position: relative;
+
+    }
+    
+    .container{
+        width: 65%;
+        height: 50%;
+    }
+}
+@media (max-width:150px) {
+    .input-field{
+        width: auto;
+        position: relative;
+
+    }
+    
+    .container{
+        width: 65%;
+        height: 50%;
+    }
+    h4{
+        font-size: small;
+    }
+}
